@@ -1,0 +1,27 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "一个简单的贪吃蛇游戏，可以在Vercel上部署",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build step required for static HTML'",
+    "dev": "npx serve . -l 3000"
+  },
+  "keywords": [
+    "snake",
+    "game",
+    "html5",
+    "canvas",
+    "javascript",
+    "vercel"
+  ],
+  "author": "Snake Game Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
